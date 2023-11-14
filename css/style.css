@@ -1,0 +1,87 @@
+@media (min-width: 600px)  { 
+
+#Main{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient( to bottom,#0F3B50, #0E3E56, #0B4561, #084D6E, #105576, #175C7D );
+}
+#logo{
+width: 89px;
+height: 92px;
+flex-shrink: 0;
+position: relative;
+right: 1ch;
+top: 1ch;
+
+}
+#Titlevic,#Titlelin,.tagname,.tagline{
+color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+#Titlevic{
+    text-align: center;
+    margin-bottom: 7ch;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 8.4px;
+}
+#Titlelin{
+    width: 80%;
+    height: 0px;
+    border: 1px solid;
+
+    margin: auto;
+    
+}
+#Tags{
+        width: 100%;
+        bottom: 5ch;
+        position: relative;
+        width: 100%;
+}
+.tagname:hover {
+    margin-top: -10px;
+    font-size: 25px;
+    color: #449fff;
+    margin-left: 18pc;
+    margin-right: 18pc;
+    
+  }
+
+.tagname{
+    position: relative;
+    height: 5pc;
+    margin-bottom: 2pc;
+    margin-left: 25pc;
+    margin-right: 25pc;
+    text-align: center;
+    border-bottom: solid;
+}
+.nameh {
+    position: relative;
+    top: 53%;
+}
+.tagline{
+    width: 80%;
+  
+     border-top: 1px  solid;
+    margin: auto;
+}
+
+h3{
+    margin-bottom: 1px;
+}
+}

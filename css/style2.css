@@ -1,0 +1,187 @@
+.dropdown{
+    display: none;
+}
+.antdrop{
+    display: contents;
+}
+.boximgmobile{
+    display: none;
+}
+body{
+    background: #87CEEB;
+}
+#Header{
+    background: #084D6E;
+    width: 100%;
+    height: 11%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    border-bottom: 3px solid;
+    border-color: black;
+}
+#Headertitlevic{
+    width: 25%;
+    height: 40px;  
+}
+#logo{
+    margin: auto;
+    width: 44px;
+    height: 43px;
+    flex-shrink: 0;
+    position: relative;
+    right: 10px;
+    top: 12px;
+}
+#victorperfil{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    position: relative;
+  
+} 
+.Headertagnamemobile{
+    display: none;
+}
+.Headertagname{
+    width: 15%;
+    height: 40px;  
+    vertical-align: text-top;
+}
+.titlelogo{
+    position: relative;
+    top: 20%;
+    margin: auto;
+}
+#Headertitlevic,.Headertagname{
+    height: 100%; 
+    float: left;
+    
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: solid;
+
+}
+.Headertagname:hover {
+    background-color: rgb(3, 123, 170);
+    color: #449fff;
+  }
+
+.Headertagname h3{
+    position: relative;
+    top: 3ch;
+    margin: auto;
+}
+#main{
+    z-index: -1;
+    background: #87CEEB;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 11%;
+    height: auto;
+}
+#page{
+    position: relative;
+    top: 20px;
+    margin: auto;
+    margin-bottom: 2%;
+    width: 96%;
+    height: auto;
+    background: #084D6E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.tbio{
+ 
+    width: 37%;
+    left: 3%;
+    position: relative;
+    top: 22%;
+}
+.titulo{
+    height: 7ch;
+    color: #FFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.box{
+    border: 0;
+    margin-top: 1%;
+    margin-left: 3%;
+    
+    width: 50%;
+    height: auto;
+
+}
+.boxclean{
+    height: auto;
+}
+.box{
+    font-size: 18px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.boximg {
+    height: auto;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 39%;
+}
+.premiacoes{
+    width: 80%;
+}
+.publi{
+    width: 95%;
+}
+.apre{
+    width: 95%; 
+}
+.video{
+    margin: auto;
+    width: 49%;
+}
+footer{
+    left: 0;
+    POSITION: absolute;
+    BOTTOM: 0;
+    BOTTOM: -18ch;
+    BACKGROUND: #084D6E;
+    HEIGHT: 120px;
+    WIDTH: 100%;
+    MARGIN: 0;
+    color:white;
+    text-align: center;
+
+    color: #FFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#contatom{
+    height: 100%;
+}
+a:-webkit-any-link {
+    color: white;
+}
+#iconR{
+    border-radius: 10px;
+    position: relative;
+    bottom: -8px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}

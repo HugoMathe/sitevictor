@@ -1,5 +1,18 @@
 
 @media (max-width: 600px) {
+    #logo{
+        margin: auto;
+    width: 53px;
+    flex-shrink: 0;
+    position: relative;
+    right: 5%;
+        }
+    .titlelogo {
+        height: 100%;
+        position: relative;
+        top: 3%;
+        margin: auto;
+    }
     h3{
         text-transform: uppercase;
     }
@@ -68,8 +81,8 @@
         position: relative;
         top: 5%;
         left: 1%;
-        width: 50%;
-    
+        width: 320px;
+       
    }
    .box{
     width: 90%;

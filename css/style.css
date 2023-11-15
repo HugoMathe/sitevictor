@@ -1,4 +1,19 @@
+a:-webkit-any-link{
+    text-decoration: none;
+}
+#logo {
+ 
+    width: 133px;
+    flex-shrink: 0;
+    position: relative;
+    right: 1ch;
+    top: 1ch;
+    
+    }
 @media (min-width: 600px)  { 
+    #logo {
+        display: none;
+    }
 h3{
     text-transform: uppercase;
 }
@@ -10,15 +25,7 @@ h3{
     height: 100%;
     background-image: linear-gradient( to bottom,#0F3B50, #0E3E56, #0B4561, #084D6E, #105576, #175C7D );
 }
-#logo{
-width: 89px;
-height: 92px;
-flex-shrink: 0;
-position: relative;
-right: 1ch;
-top: 1ch;
 
-}
 #Titlevic,#Titlelin,.tagname,.tagline{
 color: #FFF;
 text-align: center;
@@ -64,6 +71,7 @@ line-height: normal;
   }
 
 .tagname{
+    text-decoration: none;
     position: relative;
     height: 5pc;
     margin-bottom: 2pc;
@@ -73,6 +81,7 @@ line-height: normal;
     border-bottom: solid;
 }
 .nameh {
+    text-decoration: none;
     position: relative;
     top: 53%;
 }

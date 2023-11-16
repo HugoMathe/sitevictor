@@ -93,4 +93,11 @@
     .dropdown-content  a:-webkit-any-link {
         text-decoration: none;
     }
+    .video {
+        margin: auto;
+        width: auto;
+    }
+    .videoplayer{
+        width: auto;
+    }
 }
